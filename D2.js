@@ -49,7 +49,7 @@ if (num4 % 5 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const totalShoppingCart = 40;
+const totalShoppingCart = 49;
 if (totalShoppingCart >= 50) {
   console.log("spedizione gratuita, checkout:", totalShoppingCart);
 } else {
@@ -63,6 +63,14 @@ if (totalShoppingCart >= 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const totalShoppingCart2 = 40;
+const promozione = 20;
+
+if (totalShoppingCart2 >= 50) {
+  console.log("spedizione gratuita, checkout:", (totalShoppingCart2 * promozione) / 100);
+} else {
+  console.log("costo della spedizione 10, checkout:", (totalShoppingCart2 * 20) / 100 + 10);
+}
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
@@ -74,7 +82,6 @@ if (totalShoppingCart >= 50) {
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-const num5 = 3;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
