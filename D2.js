@@ -49,7 +49,7 @@ if (x1 === 8) {
   console.log("è uguale a 8");
 } else if (x2 - x1 === 8) {
   console.log("è uguale a 8");
-} else if (x2 - x1 === 8) {
+} else if (x2 + x1 === 8) {
   console.log("è uguale a 8");
 }
 
